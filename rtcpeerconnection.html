@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>getUserMedia demo</title>
+</head>
+<body>
+<div  style="width:100%;">
+    <div style="width:49%; border: 2px solid black; display:inline-block; ">
+        <div>Local Video</div>
+        <div><video id="localVid"></video></div>
+    
+    </div>
+    <div style="width:49%; border: 2px solid black; display:inline-block;">
+        <div>remote Video</div>
+        <div><video id="remoteVid"></video></div>
+    </div>
+    <div style="text-align: center;">
+        <button id="connectButton">Connect</button>
+        <button id="callButton">Call</button>
+        <button id="hangupButton">Hang Up</button>
+    </div>
+
+
+    
+</div>
+    
+<script src="js/rtcpeerconnection.js"></script>   
+</body>
+</html>
